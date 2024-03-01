@@ -1,0 +1,42 @@
+.admin {
+  text-align: center;
+}
+
+.admin h1 {
+  color: #ffd700; /* Rich Gold */
+}
+
+.admin h3 {
+  color: #0a043c; /* Deep Royal Blue */
+}
+
+.admin label {
+  display: block;
+  margin-top: 20px; /* Example margin adjustment */
+}
+
+.admin input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px; /* Example margin adjustment */
+  border: 1px solid #0a043c; /* Deep Royal Blue */
+}
+
+.admin input[type="text"]:focus {
+  outline: none;
+  border-color: #ffd700; /* Rich Gold */
+}
+
+.admin button {
+  margin-top: 20px; /* Example margin adjustment */
+  padding: 10px 20px;
+  background-color: #0a043c; /* Deep Royal Blue */
+  color: #ffd700; /* Rich Gold */
+  border: none;
+  cursor: pointer;
+}
+
+.admin button:hover {
+  background-color: #ffd700; /* Rich Gold */
+  color: #0a043c; /* Deep Royal Blue */
+}
